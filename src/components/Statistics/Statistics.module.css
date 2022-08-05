@@ -1,0 +1,13 @@
+.statistics_item {
+    font-size: 25px;
+    color: rgb(60, 58, 58);
+    margin: 5px;
+    font-size: 20px;
+}
+
+.statistics_item_total {
+    composes: statistics_item;
+    
+    font-weight: 600;
+    text-decoration: underline;
+}
